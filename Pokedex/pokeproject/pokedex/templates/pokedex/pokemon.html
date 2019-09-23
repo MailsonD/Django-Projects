@@ -1,5 +1,6 @@
 {% extends 'pokedex/extend/base.html' %}
 {% load static %}
+{% load django_template_maths %}
 
 {% block content %}
 <div class="container content">
@@ -41,8 +42,8 @@
                                     {% endfor %}
                                 </p>
                                 <p>
-                                    <b>Peso: </b> {{ pokemon.peso }} Kg
-                                    <b>Altura: </b> {{ pokemon.altura }} m
+                                    <b>Peso: </b> {{ pokemon.peso|div:"10"}} Kg
+                                    <b>Altura: </b> {{ pokemon.altura|div:"10"}} m
                                 </p>
                                 <p>
                                     {{ pokemon.descricao }}
