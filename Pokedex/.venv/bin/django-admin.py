@@ -1,4 +1,4 @@
-#!/home/mailson/Desenvolvimento/Estudos/Pessoal/Django/Pokedex/.venv/bin/python3
+#!/home/mailson/Desenvolvimento/Estudos/Pessoal/Django/Django-Projects/Pokedex/.venv/bin/python3
 from django.core import management
 
 if __name__ == "__main__":
