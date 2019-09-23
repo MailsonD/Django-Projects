@@ -1,0 +1,18 @@
+.topbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.card{
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    margin: 10px;
+
+}
+
+.pokemon{
+    width: 14rem;
+    height: 20rem;
+}

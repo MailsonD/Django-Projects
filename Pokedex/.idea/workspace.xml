@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2591e490-3604-4a09-907a-eadcf805dcf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pokeproject/pokedex/templates/pokedex/pokemon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokeproject/pokedex/templates/pokemons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokeproject/pokedex/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pokeproject/pokedex/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeproject/pokedex/templates/pokedex/extend/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/pokeproject/pokedex/templates/pokedex/extend/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokeproject/pokedex/templates/pokedex/pokemon.html" beforeDir="false" afterPath="$PROJECT_DIR$/pokeproject/pokedex/templates/pokedex/pokemon.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +17,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,6 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -62,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569261852046</updated>
       <workItem from="1569261859338" duration="144000" />
-      <workItem from="1569262020084" duration="4234000" />
+      <workItem from="1569262020084" duration="6747000" />
     </task>
     <servers />
   </component>
