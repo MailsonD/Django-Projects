@@ -4,6 +4,15 @@
 
 {% block content %}
 <div class="container content">
+
+    <div class="row" style="padding-left:10px; padding-right: 15px;">
+        <form class="col-12" method="POST" action="/buscar/">
+            {% csrf_token %}
+            <input class="form-control" placeholder="buscar" name="busca">
+            <button type="submit" hidden="true" id="buscar"></button>
+        </form>
+    </div>
+
     <div class="row">
         {% for pokemon in pokemon_list %}
         <div class="col-3">
@@ -58,4 +67,15 @@
 
     </div>
 </div>
+
+<script>
+    $(document).ready(function () {
+    $('body').keypress(function (e) {
+        if (e.keyCode == 13) {
+            e.preventDefault();
+            $("#buscar").click();
+        }
+    });
+});
+</script>
 {% endblock %}
